@@ -8,7 +8,7 @@ var
 // Purchase specific number
 // to be used with searchBy[Number|State]
 function purchase(num, cb) {
-  console.log('purchase', num);
+
   twilioPurchase.incomingPhoneNumbers.create({
     phoneNumber: num,
   }, function(err, number) {
@@ -22,7 +22,6 @@ function purchase(num, cb) {
     cb(false, number.phone_number);
 
   });
-
 }
 
 // Search for a number by given state
