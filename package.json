@@ -1,0 +1,37 @@
+{
+  "name": "twilio-relative-number",
+  "version": "0.0.1",
+  "description": "Helper to find and purchase number in the same or relatively close area of another.",
+  "main": "src/index.js",
+  "engines": {
+    "node": ">=0.12.0"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com"
+  },
+  "keywords": [
+    "twilio",
+    "phone",
+    "number",
+    "code",
+    "challenge"
+  ],
+  "author": "Steve Partridge",
+  "license": "WTFPL",
+  "dependencies": {
+    "phone": "^1.0.3",
+    "twilio": "^1.11.1",
+    "areacode": "https://github.com/stevepartridge/areacode-us-js.git"
+  },
+  "devDependencies": {
+    "chai": "^2.2.0",
+    "mocha": "^2.2.1"
+  }
+}
